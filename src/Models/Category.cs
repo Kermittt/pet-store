@@ -1,5 +1,8 @@
 ﻿namespace Models
 {
+    /// <summary>
+    /// Represents a category from the PetStore API.
+    /// </summary>
     public class Category
     {
         /// <summary>

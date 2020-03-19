@@ -3,6 +3,9 @@ using Models.Enumerations;
 
 namespace Models
 {
+    /// <summary>
+    /// Represents a pet from the PetStore API.
+    /// </summary>
     public class Pet
     {
         /// <summary>

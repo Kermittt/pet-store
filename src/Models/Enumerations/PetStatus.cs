@@ -1,7 +1,7 @@
 ﻿namespace Models.Enumerations
 {
     /// <summary>
-    /// Available statuses for <see cref="Pet"/>s.
+    /// Statuses that can be applied to a <see cref="Pet"/>.
     /// </summary>
     public enum PetStatus
     {

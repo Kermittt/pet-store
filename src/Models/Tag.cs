@@ -1,5 +1,8 @@
 ﻿namespace Models
 {
+    /// <summary>
+    /// Represents a tag from the PetStore API.
+    /// </summary>
     public class Tag
     {
         /// <summary>
