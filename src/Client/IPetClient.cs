@@ -5,7 +5,7 @@ using System.Collections.Generic;
 namespace Unify.PetStore.Client
 {
     /// <summary>
-    /// Service interface for accessing the PetStore API.
+    /// Client service interface for accessing the PetStore API.
     /// </summary>
     public interface IPetClient
     {
