@@ -2,8 +2,8 @@
 using System.Linq;
 using System.Threading;
 using System.Threading.Tasks;
-using Models.Enumerations;
 using Unify.PetStore.Client;
+using Unify.PetStore.Models.Enumerations;
 
 namespace Unify.PetStore.Sample
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
-using Models.Enumerations;
+using Unify.PetStore.Models.Enumerations;
 
-namespace Models
+namespace Unify.PetStore.Models
 {
     /// <summary>
     /// Represents a pet from the PetStore API.

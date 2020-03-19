@@ -2,6 +2,8 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Unify.PetStore.Models</AssemblyName>
+    <RootNamespace>Unify.PetStore.Models</RootNamespace>
   </PropertyGroup>
 
 </Project>

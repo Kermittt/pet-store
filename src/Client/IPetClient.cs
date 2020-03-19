@@ -1,8 +1,8 @@
-﻿using Models;
-using Models.Enumerations;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Threading;
 using System.Threading.Tasks;
+using Unify.PetStore.Models;
+using Unify.PetStore.Models.Enumerations;
 
 namespace Unify.PetStore.Client
 {

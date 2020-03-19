@@ -1,4 +1,4 @@
-﻿namespace Models
+﻿namespace Unify.PetStore.Models
 {
     /// <summary>
     /// Represents a category from the PetStore API.

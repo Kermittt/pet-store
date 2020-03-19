@@ -1,4 +1,4 @@
-﻿namespace Models
+﻿namespace Unify.PetStore.Models
 {
     /// <summary>
     /// Represents a tag from the PetStore API.

@@ -4,13 +4,13 @@ using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
 using FluentAssertions;
-using Models.Enumerations;
 using Moq;
 using Moq.Protected;
 using NUnit.Framework;
 using Unify.PetStore.Client;
+using Unify.PetStore.Models.Enumerations;
 
-namespace ClientTests
+namespace Unify.PetStore.ClientTests
 {
     public class PetTests
     {

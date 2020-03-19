@@ -1,6 +1,4 @@
 ﻿using System;
-using Models;
-using Models.Enumerations;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
@@ -8,6 +6,8 @@ using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Threading;
 using System.Threading.Tasks;
+using Unify.PetStore.Models;
+using Unify.PetStore.Models.Enumerations;
 
 namespace Unify.PetStore.Client
 {
