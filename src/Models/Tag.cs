@@ -3,12 +3,12 @@
     public class Tag
     {
         /// <summary>
-        /// Unique id of the <see cref="Tag"/>.
+        /// Unique id of this <see cref="Tag"/>.
         /// </summary>
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
-        /// Name of the <see cref="Tag"/>.
+        /// Name of this <see cref="Tag"/>.
         /// </summary>
         public string Name { get; set; }
     }

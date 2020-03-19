@@ -3,12 +3,12 @@
     public class Category
     {
         /// <summary>
-        /// Unique id of the <see cref="Category"/>.
+        /// Unique id of this <see cref="Category"/>.
         /// </summary>
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
-        /// Name of the <see cref="Category"/>.
+        /// Name of this <see cref="Category"/>.
         /// </summary>
         public string Name { get; set; }
     }

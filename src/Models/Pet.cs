@@ -6,12 +6,17 @@ namespace Models
     public class Pet
     {
         /// <summary>
-        /// Unique id of the <see cref="Pet"/>.
+        /// Unique id of this <see cref="Pet"/>.
         /// </summary>
-        public int Id { get; set; }
+        public long Id { get; set; }
 
         /// <summary>
-        /// Name of the <see cref="Pet"/>.
+        /// <see cref="Category"/> that this <see cref="Pet"/> belongs to.
+        /// </summary>
+        public Category Category { get; set; }
+
+        /// <summary>
+        /// Name of this <see cref="Pet"/>.
         /// </summary>
         public string Name { get; set; }
 

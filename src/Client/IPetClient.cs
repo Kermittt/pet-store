@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Unify.PetStore.Client
 {
     /// <summary>
-    /// Client service interface for accessing the PetStore API.
+    /// Client service interface for accessing <see cref="Pet"/>s in the PetStore API.
     /// </summary>
     public interface IPetClient
     {
