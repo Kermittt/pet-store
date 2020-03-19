@@ -1,0 +1,9 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <AssemblyName>Unify.PetStore.Client</AssemblyName>
+    <RootNamespace>Unify.PetStore.Client</RootNamespace>
+  </PropertyGroup>
+
+</Project>
