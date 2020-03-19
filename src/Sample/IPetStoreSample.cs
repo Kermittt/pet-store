@@ -1,4 +1,7 @@
-﻿namespace Unify.PetStore.Sample
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace Unify.PetStore.Sample
 {
     /// <summary>
     /// Service interface for the PetStore sample application.
@@ -8,6 +11,7 @@
         /// <summary>
         /// Executes the PetStore sample application.
         /// </summary>
-        void Run();
+        /// <param name="cancellationToken">A <see cref="CancellationToken" /> to observe while waiting for the task to complete.</param>
+        Task Run(CancellationToken cancellationToken = default);
     }
 }

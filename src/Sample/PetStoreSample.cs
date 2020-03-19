@@ -1,4 +1,7 @@
-﻿namespace Unify.PetStore.Sample
+﻿using System.Threading;
+using System.Threading.Tasks;
+
+namespace Unify.PetStore.Sample
 {
     /// <summary>
     /// Service for the PetStore sample application.
@@ -6,7 +9,7 @@
     public class PetStoreSample : IPetStoreSample
     {
         /// <inheritdoc/>
-        public void Run()
+        public async Task Run(CancellationToken cancellationToken = default)
         {
             throw new System.NotImplementedException();
         }

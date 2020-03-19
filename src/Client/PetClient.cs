@@ -1,6 +1,8 @@
 ﻿using Models;
 using Models.Enumerations;
 using System.Collections.Generic;
+using System.Threading;
+using System.Threading.Tasks;
 
 namespace Unify.PetStore.Client
 {
@@ -10,7 +12,7 @@ namespace Unify.PetStore.Client
     public class PetClient : IPetClient
     {
         /// <inheritdoc/>
-        public IEnumerable<Pet> FindByStatus(params PetStatus[] statuses)
+        public async Task<IEnumerable<Pet>> FindByStatus(IEnumerable<PetStatus> statuses, CancellationToken cancellationToken = default)
         {
             throw new System.NotImplementedException();
         }
